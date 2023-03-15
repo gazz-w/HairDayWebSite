@@ -23,25 +23,33 @@ header > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    max-width: 100%; /* torna a imagem mais responsiva se adequando automaticamente ao tamanho máximo da tela */
+    height: auto;
+
 }
 
 nav{
     padding: 0.7rem;
     background-color: #a6d7c6; /* cor de fundo do menu */
     border-radius: 0.8rem; /* borda arredondada */
+    text-align: center;
+
 
 }
 
-nav ul {
-   list-style: none;
-   text-align: center;
-       background-color: #a6d7c6; /* cor de fundo do menu */
+nav div {
+    list-style: none;
+    text-align: center;
+    background-color: #a6d7c6; /* cor de fundo do menu */
 
 }
 
 nav li {
     display: inline-block;
     font-size: 1.5rem;
+    background-color: #a6d7c6; /* cor de fundo do menu */
 
 }
 
@@ -73,11 +81,18 @@ footer {
 
 footer div {
     flex: 1;
+
 }
+
+#footerLogo{
+   width: 10%
+}
+
 
 footer img{
     padding: 16px;
-    width: 10%;
+    width: 20%;
+
 }
 
 @media screen and (max-width: 600px) {
