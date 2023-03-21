@@ -25,7 +25,6 @@ h1 {
 }
 
 #choose {
-    background-color: #fff;
     border-radius: 0.5rem;
     padding: 1%;
 
@@ -47,13 +46,13 @@ header > img {
 
 }
 
-nav{
-    padding: 0.7rem;
+nav {
+    padding: 0.5rem;
     background-color: #d0ece2; /* cor de fundo do menu */
-    border-radius: 0.8rem; /* borda arredondada */
     text-align: center;
-
-
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
 }
 
 nav div {
@@ -65,7 +64,7 @@ nav div {
 
 nav li {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     background-color: #d0ece2; /* cor de fundo do menu */
 
 }
@@ -74,9 +73,7 @@ nav a {
     color: #2c2c2c;
     text-decoration: none;
     background-color: #d0ece2; /* cor de fundo do menu */
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem; /* borda arredondada */
-
+    padding: 0.5rem
 }
 
 nav a:hover {
@@ -87,6 +84,92 @@ nav a:hover {
 section { 
     display: flex;
 }
+
+#choose .gridService { 
+    display: grid;
+    height: 10rem;
+    grid-template-rows: 0.5fr 0.5fr; /* define duas fileiras com altura igual */
+    grid-template-columns: 1fr 1fr 1fr; /* define três colunas com largura igual */
+    padding: 3%
+}
+
+.gridService img{
+    max-width: 30%;
+
+}
+
+#color {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+    
+
+}
+
+#cut {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+
+}
+
+#allColor {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+
+}
+
+#cTreatment {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+
+}
+#massage {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+
+}
+#barber {
+    background-color: #a6d7c6 ;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+    border-style: solid;
+    border-color:#008b61;
+    border-width: 1px;
+    margin: 1.5%;
+}
+
+
+
 
 article {
     flex: 1;
